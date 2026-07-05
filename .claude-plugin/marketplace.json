@@ -1,0 +1,30 @@
+{
+  "name": "harry18456",
+  "owner": {
+    "name": "Harry",
+    "email": "harry18456@gmail.com",
+    "url": "https://github.com/harry18456"
+  },
+  "description": "Harry's personal Claude Code plugins — notification helpers and small workflow tools.",
+  "plugins": [
+    {
+      "name": "hook-notify",
+      "displayName": "Windows Notifications",
+      "description": "Windows-native toast + sound notifications for Claude Code Stop / Notification events.",
+      "category": "productivity",
+      "version": "0.1.1",
+      "author": {
+        "name": "Harry",
+        "email": "harry18456@gmail.com",
+        "url": "https://github.com/harry18456"
+      },
+      "homepage": "https://github.com/harry18456/cc-hook-notify",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/harry18456/cc-hook-notify.git"
+      },
+      "tags": ["windows-only", "zero-dependency"],
+      "keywords": ["notification", "toast", "powershell", "hooks", "event-driven"]
+    }
+  ]
+}
