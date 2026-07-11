@@ -25,6 +25,25 @@
       },
       "tags": ["windows-only", "zero-dependency"],
       "keywords": ["notification", "toast", "powershell", "hooks", "event-driven"]
+    },
+    {
+      "name": "cowork-insights",
+      "displayName": "Cowork Insights",
+      "description": "Cowork-only usage report for Claude Desktop — sessions, tokens (incl. prompt cache), models, tools. Full history with no 30-day limit, read-only.",
+      "category": "productivity",
+      "version": "0.1.0",
+      "author": {
+        "name": "Harry",
+        "email": "harry18456@gmail.com",
+        "url": "https://github.com/harry18456"
+      },
+      "homepage": "https://github.com/harry18456/cc-cowork-insights",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/harry18456/cc-cowork-insights.git"
+      },
+      "tags": ["windows-only", "read-only", "zero-dependency"],
+      "keywords": ["cowork", "usage", "insights", "tokens", "analytics", "claude-desktop"]
     }
   ]
 }
