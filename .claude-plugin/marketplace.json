@@ -5,7 +5,7 @@
     "email": "harry18456@gmail.com",
     "url": "https://github.com/harry18456"
   },
-  "description": "Harry's personal Claude Code plugins — notification helpers and small workflow tools.",
+  "description": "Harry's personal Claude Code plugins — notifications, usage insights, local image generation, and small workflow tools.",
   "plugins": [
     {
       "name": "hook-notify",
@@ -44,6 +44,25 @@
       },
       "tags": ["windows-only", "read-only", "zero-dependency"],
       "keywords": ["cowork", "usage", "insights", "tokens", "analytics", "claude-desktop"]
+    },
+    {
+      "name": "agy-image",
+      "displayName": "Agy Image (Nano Banana)",
+      "description": "Generate or edit images locally via the agy CLI (Antigravity / Gemini Nano Banana) — no API key — with true transparent backgrounds via local rembg.",
+      "category": "design",
+      "version": "0.1.0",
+      "author": {
+        "name": "Harry",
+        "email": "harry18456@gmail.com",
+        "url": "https://github.com/harry18456"
+      },
+      "homepage": "https://github.com/harry18456/cc-agy-image",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/harry18456/cc-agy-image.git"
+      },
+      "tags": ["windows-only", "local", "no-api-key"],
+      "keywords": ["image", "image-generation", "nano-banana", "antigravity", "gemini", "rembg", "transparent-background", "skill"]
     }
   ]
 }

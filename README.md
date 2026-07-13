@@ -8,6 +8,7 @@
 |--------|--------|------|------|
 | hook-notify | [harry18456/cc-hook-notify](https://github.com/harry18456/cc-hook-notify) | Claude 回應完成 / 等待輸入時,跳 Windows 原生 Toast + 音效通知 | Windows |
 | cowork-insights | [harry18456/cc-cowork-insights](https://github.com/harry18456/cc-cowork-insights) | Cowork-only 用量分析:以原生 `/insights` 同款管線(同 prompt、同模板、同 30 天窗)產報告,只把來源整理成 Cowork session;唯讀、零依賴 | Windows |
+| agy-image | [harry18456/cc-agy-image](https://github.com/harry18456/cc-agy-image) | 用本機 `agy` CLI(Antigravity / Gemini Nano Banana)生圖 / 改圖,免 API key;`rembg` 真去背產出透明 PNG | Windows |
 
 ## 安裝
 
@@ -17,6 +18,7 @@
 /plugin marketplace add harry18456/cc
 /plugin install hook-notify@harry18456
 /plugin install cowork-insights@harry18456
+/plugin install agy-image@harry18456
 ```
 
 裝完重開 Claude Code 生效(要哪個裝哪個)。
