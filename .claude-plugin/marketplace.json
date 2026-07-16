@@ -82,6 +82,25 @@
       },
       "tags": ["local", "no-api-key", "cross-platform"],
       "keywords": ["image", "image-generation", "codex", "gpt-image-2", "openai", "rembg", "transparent-background", "skill"]
+    },
+    {
+      "name": "spec-orchestrate",
+      "displayName": "Spec Orchestrate",
+      "description": "Spec-driven development orchestrated entirely by Claude Code — propose with user sign-off, hybrid execution (main thread or one executor subagent per change), per-stage review gates, archive and commit. Auto-detects spectra or openspec; no Codex required.",
+      "category": "workflow",
+      "version": "0.1.0",
+      "author": {
+        "name": "Harry",
+        "email": "harry18456@gmail.com",
+        "url": "https://github.com/harry18456"
+      },
+      "homepage": "https://github.com/harry18456/cc-spec-orchestrate",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/harry18456/cc-spec-orchestrate.git"
+      },
+      "tags": ["cross-platform", "zero-dependency", "claude-only"],
+      "keywords": ["spec-driven", "spectra", "openspec", "orchestration", "subagent", "spec", "workflow", "skill"]
     }
   ]
 }
