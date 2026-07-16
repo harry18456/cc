@@ -63,6 +63,25 @@
       },
       "tags": ["windows-only", "local", "no-api-key"],
       "keywords": ["image", "image-generation", "nano-banana", "antigravity", "gemini", "rembg", "transparent-background", "skill"]
+    },
+    {
+      "name": "codex-image",
+      "displayName": "Codex Image (GPT-Image)",
+      "description": "Generate or edit images by driving the OpenAI Codex CLI's built-in image_gen tool (gpt-image-2) — ChatGPT subscription login, no API key — with exact sizes and true transparent backgrounds via local rembg. Cross-platform.",
+      "category": "design",
+      "version": "0.1.0",
+      "author": {
+        "name": "Harry",
+        "email": "harry18456@gmail.com",
+        "url": "https://github.com/harry18456"
+      },
+      "homepage": "https://github.com/harry18456/cc-codex-image",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/harry18456/cc-codex-image.git"
+      },
+      "tags": ["local", "no-api-key", "cross-platform"],
+      "keywords": ["image", "image-generation", "codex", "gpt-image-2", "openai", "rembg", "transparent-background", "skill"]
     }
   ]
 }
