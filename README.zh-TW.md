@@ -11,7 +11,7 @@
 | hook-notify | [harry18456/cc-hook-notify](https://github.com/harry18456/cc-hook-notify) | Claude 回應完成 / 等待輸入時,跳 Windows 原生 Toast + 音效通知 | Windows |
 | cowork-insights | [harry18456/cc-cowork-insights](https://github.com/harry18456/cc-cowork-insights) | Cowork-only 用量分析:以原生 `/insights` 同款管線(同 prompt、同模板、同 30 天窗)產報告,只把來源整理成 Cowork session;唯讀、零依賴 | Windows |
 | agy-image | [harry18456/cc-agy-image](https://github.com/harry18456/cc-agy-image) | 用本機 `agy` CLI(Antigravity / Gemini Nano Banana)生圖 / 改圖,免 API key;`rembg` 真去背產出透明 PNG | Windows |
-| spec-orchestrate | [harry18456/cc-spec-orchestrate](https://github.com/harry18456/cc-spec-orchestrate) | spec-driven 開發全由 Claude 編排:propose 與你定案、混合制實作(主線直做/executor subagent)、每階段 review gate、archive 與 commit;適用 spectra/openspec 專案,不需 Codex | 跨平台 |
+| spec-orchestrate | [harry18456/cc-spec-orchestrate](https://github.com/harry18456/cc-spec-orchestrate) | spec-driven 開發全由 Claude 編排:propose 與你定案、混合制實作(主線直做/executor subagent)、每階段 review gate、archive 與 commit;適用 spectra/openspec 專案 | 跨平台 |
 
 ## 安裝
 

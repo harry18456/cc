@@ -86,7 +86,7 @@
     {
       "name": "spec-orchestrate",
       "displayName": "Spec Orchestrate",
-      "description": "Spec-driven development orchestrated entirely by Claude Code — propose with user sign-off, hybrid execution (main thread or one executor subagent per change), per-stage review gates, archive and commit. Auto-detects spectra or openspec; no Codex required.",
+      "description": "Spec-driven development orchestrated entirely by Claude Code — propose with user sign-off, hybrid execution (main thread or one executor subagent per change), per-stage review gates, archive and commit. Auto-detects spectra or openspec.",
       "category": "workflow",
       "version": "0.1.0",
       "author": {
