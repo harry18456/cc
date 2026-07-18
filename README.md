@@ -12,7 +12,7 @@ A personal collection of Claude Code plugins, with more small tools to come. Eac
 | cowork-insights | [harry18456/cc-cowork-insights](https://github.com/harry18456/cc-cowork-insights) | Cowork-only usage analytics: reports via the same pipeline as the built-in `/insights` (same prompts, same template, same 30-day window), with sources curated to Cowork sessions; read-only, zero-dependency | Windows |
 | agy-image | [harry18456/cc-agy-image](https://github.com/harry18456/cc-agy-image) | Generate / edit images with the local `agy` CLI (Antigravity / Gemini Nano Banana), no API key; true background removal via `rembg` producing transparent PNGs | Windows |
 | codex-image | [harry18456/cc-codex-image](https://github.com/harry18456/cc-codex-image) | Generate / edit images with the `codex` CLI's built-in `image_gen` tool (OpenAI gpt-image-2) on a ChatGPT subscription, no API key; exact sizes guaranteed by the driver, true background removal via `rembg` | Cross-platform |
-| spec-orchestrate | [harry18456/cc-spec-orchestrate](https://github.com/harry18456/cc-spec-orchestrate) | Spec-driven development orchestrated entirely by Claude — propose with user sign-off, hybrid main-thread/subagent execution, per-stage review gates, archive & commit; for spectra/openspec repos | Cross-platform |
+| spec-orchestrate | [harry18456/cc-spec-orchestrate](https://github.com/harry18456/cc-spec-orchestrate) | Autonomous spec-driven development orchestrated entirely by Claude — propose→apply→review→archive→commit with no approval waits, hybrid main-thread/subagent execution, per-stage review gates, runtime verification; for spectra/openspec repos | Cross-platform |
 
 ## Installation
 
