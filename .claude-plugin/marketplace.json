@@ -101,6 +101,25 @@
       },
       "tags": ["cross-platform", "zero-dependency", "claude-only"],
       "keywords": ["spec-driven", "spectra", "openspec", "orchestration", "subagent", "spec", "workflow", "skill"]
+    },
+    {
+      "name": "adhd-ste100-eli5",
+      "displayName": "ADHD STE100 ELI5",
+      "description": "An output style that makes Claude Code answers cheap to read and cheap to act on. Three non-overlapping layers: message shape from ADHD support practice (action first, numbered steps, state restated every turn), sentence mechanics from the ASD-STE100 controlled-English standard (one instruction per sentence, capped length, active voice), word choice from ELI5 (plainest word, jargon explained in the same breath). Language-neutral.",
+      "category": "productivity",
+      "version": "0.1.0",
+      "author": {
+        "name": "Harry",
+        "email": "harry18456@gmail.com",
+        "url": "https://github.com/harry18456"
+      },
+      "homepage": "https://github.com/harry18456/cc-adhd-ste100-eli5",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/harry18456/cc-adhd-ste100-eli5.git"
+      },
+      "tags": ["cross-platform", "zero-dependency", "claude-only"],
+      "keywords": ["output-style", "adhd", "ste100", "asd-ste100", "eli5", "accessibility", "plain-language", "readability"]
     }
   ]
 }
