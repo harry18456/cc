@@ -14,6 +14,7 @@ A personal collection of Claude Code plugins, with more small tools to come. Eac
 | codex-image | [harry18456/cc-codex-image](https://github.com/harry18456/cc-codex-image) | Generate / edit images with the `codex` CLI's built-in `image_gen` tool (OpenAI gpt-image-2) on a ChatGPT subscription, no API key; exact sizes guaranteed by the driver, true background removal via `rembg` | Cross-platform |
 | spec-orchestrate | [harry18456/cc-spec-orchestrate](https://github.com/harry18456/cc-spec-orchestrate) | Autonomous spec-driven development orchestrated entirely by Claude — propose→apply→review→archive→commit with no approval waits, hybrid main-thread/subagent execution, per-stage review gates, runtime verification; for spectra/openspec repos | Cross-platform |
 | adhd-ste100-eli5 | [harry18456/cc-adhd-ste100-eli5](https://github.com/harry18456/cc-adhd-ste100-eli5) | An output style that makes answers cheap to read and cheap to act on — message shape from ADHD support practice, sentence mechanics from the ASD-STE100 controlled-English standard, word choice from ELI5; language-neutral | Cross-platform |
+| docs | [harry18456/cc-docs](https://github.com/harry18456/cc-docs) | Evidence-tagged project knowledge: `doc-mine` interviews you, then mines the source into categorized `docs/` where every sentence cites `file:line` / official URL / actual run (gaps marked `[UNVERIFIED]`); `doc-distill` condenses it into one self-contained file | Cross-platform |
 
 ## Installation
 
@@ -27,6 +28,7 @@ Run in Claude Code:
 /plugin install codex-image@harry18456
 /plugin install spec-orchestrate@harry18456
 /plugin install adhd-ste100-eli5@harry18456
+/plugin install docs@harry18456
 ```
 
 Restart Claude Code to take effect (install only the ones you want).

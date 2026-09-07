@@ -120,6 +120,25 @@
       },
       "tags": ["cross-platform", "zero-dependency", "claude-only"],
       "keywords": ["output-style", "adhd", "ste100", "asd-ste100", "eli5", "accessibility", "plain-language", "readability"]
+    },
+    {
+      "name": "docs",
+      "displayName": "Doc Mine & Distill",
+      "description": "Turn a project into evidence-tagged Markdown knowledge. doc-mine interviews you first (what you know, what you want, what you assume but never checked), then mines the source into categorized docs/ where every sentence cites file:line, an official URL, or an actual run — gaps are marked [UNVERIFIED] instead of guessed. doc-distill condenses it all into one self-contained file you can hand to anyone.",
+      "category": "development",
+      "version": "0.1.0",
+      "author": {
+        "name": "Harry",
+        "email": "harry18456@gmail.com",
+        "url": "https://github.com/harry18456"
+      },
+      "homepage": "https://github.com/harry18456/cc-docs",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/harry18456/cc-docs.git"
+      },
+      "tags": ["cross-platform", "zero-dependency", "claude-only"],
+      "keywords": ["documentation", "knowledge", "evidence", "grounded", "interview", "subagent", "distill", "skill"]
     }
   ]
 }
