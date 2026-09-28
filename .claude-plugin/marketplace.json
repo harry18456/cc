@@ -139,6 +139,25 @@
       },
       "tags": ["cross-platform", "zero-dependency", "claude-only"],
       "keywords": ["documentation", "knowledge", "evidence", "grounded", "interview", "subagent", "distill", "skill"]
+    },
+    {
+      "name": "qrcode",
+      "displayName": "Verified QR Codes",
+      "description": "Design, build and verify QR codes that are guaranteed to scan — logo in the middle, brand colors or gradients, dot/rounded/leaf modules, custom finders, cards with text — for print or screens. A deterministic engine picks EC level, version, mask and logo size, then gates every design on per-block error budget, structure, contrast, two decoders and robustness sweeps. Cross-platform: runs with uv or a plain Python 3.12-3.14, no system libraries.",
+      "category": "design",
+      "version": "0.1.0",
+      "author": {
+        "name": "Harry",
+        "email": "harry18456@gmail.com",
+        "url": "https://github.com/harry18456"
+      },
+      "homepage": "https://github.com/harry18456/cc-qrcode",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/harry18456/cc-qrcode.git"
+      },
+      "tags": ["cross-platform", "local", "no-api-key"],
+      "keywords": ["qrcode", "qr-code", "logo", "branding", "print", "wifi", "vcard", "zxing", "zbar", "skill"]
     }
   ]
 }

@@ -15,6 +15,7 @@
 | spec-orchestrate | [harry18456/cc-spec-orchestrate](https://github.com/harry18456/cc-spec-orchestrate) | spec-driven 開發全由 Claude 自治編排:propose→apply→review→archive→commit 全程不等核准、混合制實作(主線直做/executor subagent)、每階段 review gate、實跑驗證;適用 spectra/openspec 專案 | 跨平台 |
 | adhd-ste100-eli5 | [harry18456/cc-adhd-ste100-eli5](https://github.com/harry18456/cc-adhd-ste100-eli5) | 一個讓回答好讀又好動手的 output style:訊息架構取自 ADHD 支持實務、句子力學取自 ASD-STE100 受控英文標準、用詞語域取自 ELI5;語言中性,跟隨使用者語言 | 跨平台 |
 | docs | [harry18456/cc-docs](https://github.com/harry18456/cc-docs) | 有據的專案知識整理:`doc-mine` 先訪談你,再把原始碼挖成分類的 `docs/`,每句句尾標 `file:line` / 官方 URL / 實際執行(查不到就標 `[UNVERIFIED]`);`doc-distill` 濃縮成一份自包含的檔案 | 跨平台 |
+| qrcode | [harry18456/cc-qrcode](https://github.com/harry18456/cc-qrcode) | 保證掃得到的 QR code:中間放 logo、品牌色、圓點 / 圓角碼點、桌卡;確定性引擎決定容錯等級、版本與 logo 尺寸,再以每個 RS block 的容錯用量、兩種解碼器與耐受度測試把關;可用 `uv` 或一般 Python 3.12–3.14 執行,不需系統函式庫 | 跨平台 |
 
 ## 安裝
 
@@ -29,6 +30,7 @@
 /plugin install spec-orchestrate@harry18456
 /plugin install adhd-ste100-eli5@harry18456
 /plugin install docs@harry18456
+/plugin install qrcode@harry18456
 ```
 
 裝完重開 Claude Code 生效(要哪個裝哪個)。

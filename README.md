@@ -15,6 +15,7 @@ A personal collection of Claude Code plugins, with more small tools to come. Eac
 | spec-orchestrate | [harry18456/cc-spec-orchestrate](https://github.com/harry18456/cc-spec-orchestrate) | Autonomous spec-driven development orchestrated entirely by Claude — propose→apply→review→archive→commit with no approval waits, hybrid main-thread/subagent execution, per-stage review gates, runtime verification; for spectra/openspec repos | Cross-platform |
 | adhd-ste100-eli5 | [harry18456/cc-adhd-ste100-eli5](https://github.com/harry18456/cc-adhd-ste100-eli5) | An output style that makes answers cheap to read and cheap to act on — message shape from ADHD support practice, sentence mechanics from the ASD-STE100 controlled-English standard, word choice from ELI5; language-neutral | Cross-platform |
 | docs | [harry18456/cc-docs](https://github.com/harry18456/cc-docs) | Evidence-tagged project knowledge: `doc-mine` interviews you, then mines the source into categorized `docs/` where every sentence cites `file:line` / official URL / actual run (gaps marked `[UNVERIFIED]`); `doc-distill` condenses it into one self-contained file | Cross-platform |
+| qrcode | [harry18456/cc-qrcode](https://github.com/harry18456/cc-qrcode) | QR codes guaranteed to scan — logo in the middle, brand colors, dot / rounded modules, table cards; a deterministic engine picks EC level, version and logo size, then gates every design on per-block error budget, two decoders and robustness sweeps; runs with `uv` or plain Python 3.12–3.14, no system libraries | Cross-platform |
 
 ## Installation
 
@@ -29,6 +30,7 @@ Run in Claude Code:
 /plugin install spec-orchestrate@harry18456
 /plugin install adhd-ste100-eli5@harry18456
 /plugin install docs@harry18456
+/plugin install qrcode@harry18456
 ```
 
 Restart Claude Code to take effect (install only the ones you want).
