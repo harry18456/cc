@@ -162,7 +162,7 @@
     {
       "name": "jev-routing",
       "displayName": "Jev Routing",
-      "description": "Per-turn model routing: asks Jev (TypeSafe System One, ~400 ms, a fraction of a cent) which tier a prompt — or a subagent's brief — needs, haiku / sonnet / opus, and rewrites that turn's or subagent's model. Down-only by default; effort-only never switches models and keeps the prompt cache; a confidence gate for close calls; fails open. /jev status|on|off|set|unset; settings per user, project or local. Needs a TypeSafe API key.",
+      "description": "Per-turn model routing: asks Jev (TypeSafe System One, ~400 ms, a fraction of a cent) which tier a prompt — or a subagent's brief — needs, haiku / sonnet / opus, and rewrites that turn's or subagent's model, moving the effort with it. Down-only by default; policy none keeps the model and moves only the effort (no cache rewrite); a confidence gate for close calls; fails open. /jev status|panel|on|off|set|unset; settings per user, project or local. Needs a TypeSafe API key.",
       "category": "productivity",
       "version": "0.1.0",
       "author": {
