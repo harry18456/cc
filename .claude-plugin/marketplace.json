@@ -162,9 +162,9 @@
     {
       "name": "jev-routing",
       "displayName": "Jev Routing",
-      "description": "Per-turn model routing: asks Jev (TypeSafe System One, ~400 ms, a fraction of a cent) which tier a prompt — or a subagent's brief — needs, haiku / sonnet / opus, and rewrites that turn's or subagent's model, moving the effort with it. Down-only by default; policy none keeps the model and moves only the effort (no cache rewrite); a confidence gate for close calls; fails open. /jev status|panel|on|off|set|unset; settings per user, project or local. Needs a TypeSafe API key.",
+      "description": "Per-turn model routing: asks Jev (TypeSafe System One, ~400 ms, a fraction of a cent) which tier a prompt — or a subagent's brief — needs, haiku / sonnet / opus / fable, and rewrites that turn's or subagent's model, moving the effort with it. Down-only by default; policy none keeps the model and moves only the effort (no cache rewrite); a confidence gate for close calls; fails open. /jev status|panel|on|off|set|unset; settings per user, project or local. Needs a TypeSafe API key.",
       "category": "productivity",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "Harry",
         "email": "harry18456@gmail.com",
@@ -176,7 +176,7 @@
         "url": "https://github.com/harry18456/cc-jev-routing.git"
       },
       "tags": ["cross-platform", "api-key", "mod"],
-      "keywords": ["jev", "typesafe", "model-routing", "router", "cost", "haiku", "sonnet", "opus", "turn.step", "mod"]
+      "keywords": ["jev", "typesafe", "model-routing", "router", "cost", "haiku", "sonnet", "opus", "fable", "turn.step", "mod"]
     }
   ]
 }
