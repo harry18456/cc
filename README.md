@@ -17,6 +17,7 @@ A personal collection of Claude Code plugins, with more small tools to come. Eac
 | docs | [harry18456/cc-docs](https://github.com/harry18456/cc-docs) | Evidence-tagged project knowledge: `doc-mine` interviews you, then mines the source into categorized `docs/` where every sentence cites `file:line` / official URL / actual run (gaps marked `[UNVERIFIED]`); `doc-distill` condenses it into one self-contained file | Cross-platform |
 | qrcode | [harry18456/cc-qrcode](https://github.com/harry18456/cc-qrcode) | QR codes guaranteed to scan — logo in the middle, brand colors, dot / rounded modules, table cards; a deterministic engine picks EC level, version and logo size, then gates every design on per-block error budget, two decoders and robustness sweeps; runs with `uv` or plain Python 3.12–3.14, no system libraries | Cross-platform |
 | jev-routing | [harry18456/cc-jev-routing](https://github.com/harry18456/cc-jev-routing) | Per-turn model routing: asks Jev (TypeSafe System One, ~400 ms, a fraction of a cent) which tier each prompt or subagent brief needs and runs it on haiku / sonnet / opus / fable, moving the effort with it; down-only by default, `policy none` moves only the effort and keeps the prompt cache untouched, confidence gate, fails open; `/jev` commands and a settings panel, per user / project / local; needs a TypeSafe API key | Cross-platform |
+| inmu-king | [harry18456/cc-inmu-king](https://github.com/harry18456/cc-inmu-king) | A joke mod: every 淫夢 meme you type (or Claude does, at half points) lights rainbow letters of T A D O K O R O above the prompt, with the meme's meaning in English or 繁體中文; eight letters is a burst (a chant, a moving pixel picture, an 8-bit jingle) and one rank up a chart from #20 to #1, where Claude ends one reply with やりますねぇ！; a meme collection, your own clips, turn times as 114514 arithmetic; each session plays its own game, nothing is saved; sound on Windows and macOS | Cross-platform |
 
 ## Installation
 
@@ -33,6 +34,7 @@ Run in Claude Code:
 /plugin install docs@harry18456
 /plugin install qrcode@harry18456
 /plugin install jev-routing@harry18456
+/plugin install inmu-king@harry18456
 ```
 
 Restart Claude Code to take effect (install only the ones you want).
