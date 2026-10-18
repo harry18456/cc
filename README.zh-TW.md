@@ -17,7 +17,7 @@
 | docs | [harry18456/cc-docs](https://github.com/harry18456/cc-docs) | 有據的專案知識整理:`doc-mine` 先訪談你,再把原始碼挖成分類的 `docs/`,每句句尾標 `file:line` / 官方 URL / 實際執行(查不到就標 `[UNVERIFIED]`);`doc-distill` 濃縮成一份自包含的檔案 | 跨平台 |
 | qrcode | [harry18456/cc-qrcode](https://github.com/harry18456/cc-qrcode) | 保證掃得到的 QR code:中間放 logo、品牌色、圓點 / 圓角碼點、桌卡;確定性引擎決定容錯等級、版本與 logo 尺寸,再以每個 RS block 的容錯用量、兩種解碼器與耐受度測試把關;可用 `uv` 或一般 Python 3.12–3.14 執行,不需系統函式庫 | 跨平台 |
 | jev-routing | [harry18456/cc-jev-routing](https://github.com/harry18456/cc-jev-routing) | 逐 turn 模型路由:先問 Jev(TypeSafe System One,約 400 ms、不到一分錢)這個 prompt 或 subagent 任務需要哪一級,再讓它跑 haiku / sonnet / opus / fable;往下換時 effort 最多 high;預設只往下、effort 開關可選(預設關)、信心門檻、失敗放行;`/jev` 指令與設定面板,設定可放 user / project / local;需要 TypeSafe API key | 跨平台 |
-| inmu-king | [harry18456/cc-inmu-king](https://github.com/harry18456/cc-inmu-king) | 搞笑 mod:你(或 Claude,算半分)打出淫夢梗,prompt 上方的 T A D O K O R O 就亮起彩虹字母,旁邊附中文或英文的意思;八個字母全亮是爆發(一句台詞、會動的像素圖、8-bit 音效),排名從 #20 往 #1 爬,到 #1 時 Claude 下一則回覆結尾會加「やりますねぇ！」;有梗圖鑑、可換成自己的音檔、回合秒數改寫成 114514 算式;每個 session 各玩各的,不存任何東西;音效支援 Windows 與 macOS | 跨平台 |
+| inmu-king | [harry18456/cc-inmu-king](https://github.com/harry18456/cc-inmu-king) | 搞笑 mod:你(或 Claude,算半分)打出淫夢梗,prompt 上方的 T A D O K O R O 就亮起彩虹字母,旁邊附中文或英文的意思(日文介面只顯示梗本身);八個字母全亮是爆發(一句台詞、會動的像素圖、8-bit 音效),排名從 #20 往 #1 爬,到 #1 時 Claude 下一則回覆結尾會加「やりますねぇ！」;有梗圖鑑、可換成自己的音檔、回合秒數改寫成 114514 算式;每個 session 各玩各的,不存任何東西;音效支援 Windows 與 macOS | 跨平台 |
 
 ## 安裝
 

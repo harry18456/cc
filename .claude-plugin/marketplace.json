@@ -181,9 +181,9 @@
     {
       "name": "inmu-king",
       "displayName": "INMU KING",
-      "description": "A joke mod: every 淫夢 meme you (or Claude) type lights rainbow letters of T A D O K O R O above the prompt, with a +3 popup and the meme's meaning in English or 繁體中文; eight letters is a burst (a classic chant, a moving pixel picture, an 8-bit jingle) and one rank up the chart, #20 to #1. At #1 a pixel crowd dances and Claude ends one reply with やりますねぇ！. A meme collection fills as you go, turn durations become 114514 arithmetic, and your own clips can replace the jingles. Sound on Windows (PowerShell) and macOS.",
+      "description": "A joke mod: every 淫夢 meme you (or Claude) type lights rainbow letters of T A D O K O R O above the prompt, with a +3 popup and the meme's meaning in English or 繁體中文 (in 日本語 the meme stands alone); eight letters is a burst (a classic chant, a moving pixel picture, an 8-bit jingle) and one rank up the chart, #20 to #1. At #1 a pixel crowd dances and Claude ends one reply with やりますねぇ！. A meme collection fills as you go, turn durations become 114514 arithmetic, and your own clips can replace the jingles. Sound on Windows (PowerShell) and macOS.",
       "category": "fun",
-      "version": "0.5.0",
+      "version": "0.6.0",
       "author": {
         "name": "Harry",
         "email": "harry18456@gmail.com",
