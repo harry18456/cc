@@ -122,11 +122,11 @@
       "keywords": ["output-style", "adhd", "ste100", "asd-ste100", "eli5", "accessibility", "plain-language", "readability"]
     },
     {
-      "name": "docs",
+      "name": "doc-mine-distill",
       "displayName": "Doc Mine & Distill",
       "description": "Turn a project into evidence-tagged Markdown knowledge. doc-mine interviews you first (what you know, what you want, what you assume but never checked), then mines the source into categorized docs/ where every sentence cites file:line, an official URL, or an actual run — gaps are marked [UNVERIFIED] instead of guessed. doc-distill condenses it all into one self-contained file you can hand to anyone.",
       "category": "development",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "author": {
         "name": "Harry",
         "email": "harry18456@gmail.com",
@@ -197,5 +197,8 @@
       "tags": ["cross-platform", "zero-dependency", "mod", "joke"],
       "keywords": ["inmu", "114514", "yajuu-senpai", "inmu-king", "meme", "band", "raster", "sound", "homo", "mod"]
     }
-  ]
+  ],
+  "renames": {
+    "docs": "doc-mine-distill"
+  }
 }
